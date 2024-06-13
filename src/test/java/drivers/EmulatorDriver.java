@@ -48,9 +48,16 @@ public class EmulatorDriver implements WebDriverProvider {
     }
 
     private String getAppPath() {
-
+        String appUrl = "https://cdn.psbank.ru/-/media/Files/Personal/remote/mobile/psbmobile.apk";
         String appPath = "src/test/resources/apps/psbmobile.apk";
         File app = new File(appPath);
+        if (!app.exists()) {
+            try (InputStream in = new URL(appUrl).openStream()) {
+                copyInputStreamToFile(in, app);
+            } catch (IOException e) {
+                throw new AssertionError("Failed to download application", e);
+            }
+        }
         return app.getAbsolutePath();
     }
 }
