@@ -57,25 +57,39 @@ gradle clean test -DdeviceHost=real
 Для доступа в Jenkins необходима регистрация на ресурсе [Jenkins](https://jenkins.autotests.cloud/) 
 Для запуска сборки необходимо нажать кнопку <code>Build now</code>.
 <p align="center">
-<img title="jenkins" src="media/screenshots/imgJenkins.png">
+<img title="jenkins" src="media/jenkins.jpg">
 </p>
 После выполнения сборки, в блоке <code>Build History</code> напротив номера сборки появятся значки 
 <code>Allure Report</code>, при клике на которые откроется страница с сформированным html-отчетом.
 
 ____
 <a id="allureReport"></a>
-## <img width="30" style="vertical-align:middle" title="Allure Report" src="media/logo/allure.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/wikipedia-tests/5/allure/"> Allure-отчета </a>
+## <img width="30" style="vertical-align:middle" title="Allure Report" src="media/logo/allure.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/VeberMobileDiplom/4/allure/"> Allure-отчета </a>
+
+### Главная страница отчета
 <p align="center">
-<img title="Allure Report" src="media/screenshots/screenshotsAllure.png">
+<img title="Allure Report Overview" src="media/allure.jpg">
+</p>
+
+### Тест-кейсы
+
+<p align="center">
+<img title="Allure Report Suites" src="media/allure1.jpg">
+</p>
+
+### Графики
+
+<p align="center">
+<img title="Allure Report Graphics" src="media/allure2.jpg">
 </p>
 
 ____
 <a id="tg"></a>
 ## <img width="30" style="vertical-align:middle" title="Telegram" src="media/logo/telegram.svg"> Уведомления в Telegram с использованием бота
 После завершения сборки, бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом
-о прогоне тестов в [специально настроенный чат](https://t.me/+m0gDb0Dy9ckwZTYy).
+о прогоне тестов в специально настроенный чат.
 <p align="center" style="background-color: #18222d">
-<img width="40%" title="Telegram Notifications" src="media/screenshots/screenshotsTelegram.png">
+<img width="40%" title="Telegram Notifications" src="media/telegram.jpg">
 </p>
 
 ____
