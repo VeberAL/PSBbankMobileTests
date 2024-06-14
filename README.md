@@ -26,13 +26,13 @@
 
 ____
 <a id="cases"></a>
-## 🕵️‍♂️ Тест-кейсы
+## Тест-кейсы
 - Проверка отображения кнопки Войти при вводе трёх символов в поле ввода логина
 - Проверка недоступности кнопки Войти при вводе трёх символов в поле ввода логина
 
 ____
 <a id="autotests"></a>
-## ▶️ Команда для запуска автотестов из терминала
+## Команда для запуска автотестов из терминала
 
 Запуск удаленно на Browserstack:
 ```bash 
@@ -53,7 +53,7 @@ gradle clean test -DdeviceHost=real
 
 ---
 <a id="jenkins"></a>
-## <img width="20" style="vertical-align:middle" title="Jenkins" src="media/logo/jenkins.svg"> </a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/wikipedia-tests/"> Jenkins </a>
+## Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/wikipedia-tests/"> Jenkins </a>
 Для доступа в Jenkins необходима регистрация на ресурсе [Jenkins](https://jenkins.autotests.cloud/) 
 Для запуска сборки необходимо нажать кнопку <code>Build now</code>.
 <p align="center">
@@ -64,7 +64,7 @@ gradle clean test -DdeviceHost=real
 
 ____
 <a id="allureReport"></a>
-## <img width="30" style="vertical-align:middle" title="Allure Report" src="media/logo/allure.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/VeberMobileDiplom/4/allure/"> Allure-отчета </a>
+## Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/VeberMobileDiplom/4/allure/"> Allure-отчета </a>
 
 ### Главная страница отчета
 <p align="center">
@@ -85,7 +85,7 @@ ____
 
 ____
 <a id="tg"></a>
-## <img width="30" style="vertical-align:middle" title="Telegram" src="media/logo/telegram.svg"> Уведомления в Telegram с использованием бота
+## Уведомления в Telegram с использованием бота
 После завершения сборки, бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом
 о прогоне тестов в специально настроенный чат.
 <p align="center" style="background-color: #18222d">
@@ -94,7 +94,7 @@ ____
 
 ____
 <a id="movie"></a>
-## <img alt="Browserstack" height="25" src="media/logo/Browserstack.svg" width="25"/></a> Видеопример выполнения теста Browserstack
+## Видеопример выполнения теста Browserstack
 <p align="center">
 <img title="Browserstack Video" src="media/screenshots/BrowserStack.gif" width="350" height="350"  alt="video">   
 </p>
