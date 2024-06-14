@@ -54,7 +54,7 @@ gradle clean test -DdeviceHost=real
 
 ---
 <a id="jenkins"></a>
-## Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/wikipedia-tests/"> Jenkins </a>
+## Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/VeberMobileDiplom/"> Jenkins </a>
 Для доступа в Jenkins необходима регистрация на ресурсе [Jenkins](https://jenkins.autotests.cloud/) 
 Для запуска сборки необходимо нажать кнопку <code>Build now</code>.
 <p align="center">
