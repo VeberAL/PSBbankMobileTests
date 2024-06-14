@@ -1,7 +1,7 @@
 <a id="наверх"></a>
 <h1 align="center">Проект по автоматизации тестирования мобильного приложения PSB Mobile.</h1>
 <p align="center">
-<img src="https://lnr-news.ru/img/20230724/d80e5bb71f79a4bb5cbdc0c150ceaea3_o.jpg" width="500" height="140">
+<img src="https://lnr-news.ru/img/20230724/d80e5bb71f79a4bb5cbdc0c150ceaea3_o.jpg" width="550" height="170">
 </p>
 
 >ПАО Промсвязьбанк (ПСБ) — универсальный банк в РФ | Входит в 10 крупнейших банков России.
@@ -58,7 +58,7 @@ gradle clean test -DdeviceHost=real
 Для доступа в Jenkins необходима регистрация на ресурсе [Jenkins](https://jenkins.autotests.cloud/) 
 Для запуска сборки необходимо нажать кнопку <code>Build now</code>.
 <p align="center">
-<img title="jenkins" src="media/jenkins.jpg">
+<img title="jenkins" src="media/jenkins.png">
 </p>
 После выполнения сборки, в блоке <code>Build History</code> напротив номера сборки появятся значки 
 <code>Allure Report</code>, при клике на которые откроется страница с сформированным html-отчетом.
@@ -69,19 +69,19 @@ ____
 
 ### Главная страница отчета
 <p align="center">
-<img title="Allure Report Overview" src="media/allure.jpg">
+<img title="Allure Report Overview" src="media/allure01.png">
 </p>
 
 ### Тест-кейсы
 
 <p align="center">
-<img title="Allure Report Suites" src="media/allure1.jpg">
+<img title="Allure Report Suites" src="media/allure03.png">
 </p>
 
 ### Графики
 
 <p align="center">
-<img title="Allure Report Graphics" src="media/allure2.jpg">
+<img title="Allure Report Graphics" src="media/allure02.png">
 </p>
 
 ____
@@ -90,14 +90,14 @@ ____
 После завершения сборки, бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом
 о прогоне тестов в специально настроенный чат.
 <p align="center" style="background-color: #18222d">
-<img width="40%" title="Telegram Notifications" src="media/telegram.jpg">
+<img width="40%" title="Telegram Notifications" src="media/tg.png">
 </p>
 
 ____
 <a id="movie"></a>
 ## Видеопример выполнения теста Browserstack
 <p align="center">
-<img title="Browserstack Video" src="media/screenshots/BrowserStack.gif" width="350" height="350"  alt="video">   
+<img title="Browserstack Video" src="media/bsvideo.gif" width="400" height="400"  alt="video">   
 </p>
 
 [Наверх ⬆](#наверх)
