@@ -13,6 +13,19 @@ public class PSBOnlineLoginTest extends TestBase {
     LoginPage loginPage = new LoginPage();
 
     @Test
+    @DisplayName("Проверка существования поля для ввода логина.")
+    void loginInputExistTest() {
+        safetyPage.clickSafetyButton()
+                .clickAllowButton();
+        mainPage.checkLoginButton()
+                .clickEnter()
+                .clickBackButton();
+        loginPage.clickLoginPageButton()
+                .clickLoginPage()
+                .inputExist();
+    }
+
+    @Test
     @DisplayName("Проверка доступности кнопки Войти при вводе в поле логина трёх символов.")
     void threeSimbolsLoginTest() {
         safetyPage.clickSafetyButton()

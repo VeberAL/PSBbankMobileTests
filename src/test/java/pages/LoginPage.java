@@ -29,6 +29,13 @@ public class LoginPage {
         return this;
     }
 
+    @Step("Проверка существования поля ввода логина.")
+    public LoginPage inputExist() {
+        if ("browserstack".equals(System.getProperty("deviceHost")))
+            loginTextViewBrowserstack.shouldBe(exist);
+        else loginTextView.shouldBe(exist);
+        return this;
+    }
     @Step("Ввод двух символов в поле ввода логина.")
     public LoginPage enterTwoSimbols() {
         if ("browserstack".equals(System.getProperty("deviceHost")))
