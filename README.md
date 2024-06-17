@@ -67,7 +67,7 @@ gradle clean test -DdeviceHost=real
 
 ____
 <a id="allureReport"></a>
-## Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/VeberMobileDiplom/4/allure/"> Allure-отчета </a>
+## Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/VeberMobileDiplom/24/allure/"> Allure-отчета </a>
 
 ### Главная страница отчета
 <p align="center">
