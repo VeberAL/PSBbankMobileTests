@@ -48,7 +48,9 @@ gradle clean test -DdeviceHost=browserstack
 ```bash 
 gradle clean test -DdeviceHost=emulation
 ```
-> Для запуска локальных тестов на компьютере должны быть установлены Android Studio, Appium Server и Appium ([инструкция](https://autotest.how/appium-setup-for-local-android-tutorial))
+
+> Для запуска локальных тестов на компьютере должны быть установлены Android Studio, Appium Server и
+> Appium ([инструкция](https://autotest.how/appium-setup-for-local-android-tutorial-md))
 
 Запуск локально на реальном устройстве:
 ```bash 
