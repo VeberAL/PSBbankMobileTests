@@ -7,12 +7,15 @@
 >ПАО Промсвязьбанк (ПСБ) — универсальный банк в РФ | Входит в 10 крупнейших банков России.
 
 ##  Содержание:
-- <a href="#cases"> Тест-кейсы</a>
-- <a href="#autotests"> Запуск автотестов</a>
-- <a href="#jenkins"> Сборка в Jenkins</a>
-- <a href="#allureReport"> Пример Allure-отчета</a>
-- <a href="#tg"> Уведомления в Telegram с использованием бота</a>
-- <a href="#movie">Видеопример прохождения тестов Browserstack</a>
+
+- <a href="#cases"> Тест-кейсы.</a>
+- <a href="#autotests"> Запуск автотестов.</a>
+- <a href="#jenkins"> Сборка в Jenkins.</a>
+- <a href="#allureReport"> Пример Allure-отчета.</a>
+- <a href="#testops"> Интеграция с Allure TestOps.</a>
+- <a href="#jira"> Задача в Jira с отображением тест-кейсов и запусками.</a> 
+- <a href="#tg"> Уведомления в Telegram с использованием бота.</a>
+- <a href="#movie">Видеопример прохождения тестов Browserstack.</a>
 
 
 Тесты написаны на языке <code>Java</code> с использованием фреймворка для автоматизации тестирования <code>[Selenide](https://selenide.org/)</code>, сборщик - <code>Gradle</code>.
@@ -87,6 +90,47 @@ ____
 </p>
 
 ____
+<a id="testops"></a>
+
+## Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/4296/dashboards">Allure TestOps</a>
+
+На *Dashboard* в <code>Allure TestOps</code> видна статистика количества тестов. Новые тесты, а так же результаты
+прогона приходят по интеграции при каждом запуске сборки.
+
+## Основная страница отчёта
+
+<p align="center">  
+<img title="Allure TestOps Dashboard" src="media/testops02.png">  
+</p>  
+
+## Пример тест-кейса
+
+<p align="center">
+<img title="AllureTC" src="media/testops01.png">
+</p>
+
+---
+<a id="jira"></a>
+
+## Задача в [Jira](https://jira.autotests.cloud/projects/HOMEWORK/issues/HOMEWORK-1271).
+
+Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается, какие тест-кейсы были
+написаны в рамках задачи и результат их прогона.
+
+### Задача в Jira
+
+<p align="center">
+<img src="media/jira.png">
+</p>
+
+#### Содержание задачи
+
+- Цель
+- Задачи для выполнения
+- Тест-кейсы из Allure TestOps
+- Результат прогона тестов в Allure TestOps
+
+---
 <a id="tg"></a>
 ## Уведомления в Telegram с использованием бота
 После завершения сборки, бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом
